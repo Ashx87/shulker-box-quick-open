@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.ashx.shulkerbox.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"InventoryAccessor"
+	],
+	"client": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
