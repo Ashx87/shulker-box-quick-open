@@ -12,7 +12,7 @@
 		"sources": "https://github.com/Ashx87/shulker-box-quick-open"
 	},
 	"license": "MIT",
-	"icon": "assets.shulker-box-quick-open/icon.png",
+	"icon": "assets/shulker-box-quick-open/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
