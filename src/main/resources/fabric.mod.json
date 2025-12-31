@@ -3,15 +3,15 @@
 	"id": "shulker-box-quick-open",
 	"version": "${version}",
 	"name": "Shulker Box Quick Open",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Quickly open shulker boxes from your hand by right-clicking while not aiming at any block. No need to place them down!",
 	"authors": [
-		"Me!"
+		"Ashx"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Ashx87/shulker-box-quick-open",
+		"sources": "https://github.com/Ashx87/shulker-box-quick-open"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/shulker-box-quick-open/icon.png",
 	"environment": "*",
 	"entrypoints": {
