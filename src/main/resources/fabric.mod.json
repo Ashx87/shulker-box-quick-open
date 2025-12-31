@@ -9,7 +9,9 @@
 	],
 	"contact": {
 		"homepage": "https://github.com/Ashx87/shulker-box-quick-open",
-		"sources": "https://github.com/Ashx87/shulker-box-quick-open"
+		"sources": "https://github.com/Ashx87/shulker-box-quick-open",
+		"issues": "https://github.com/Ashx87/shulker-box-quick-open/issues",
+		"release": "https://github.com/Ashx87/shulker-box-quick-open/releases"
 	},
 	"license": "MIT",
 	"icon": "assets/shulker-box-quick-open/icon.png",
