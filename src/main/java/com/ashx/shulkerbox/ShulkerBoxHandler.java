@@ -13,6 +13,8 @@ import net.minecraft.core.component.DataComponents;
 import net.minecraft.world.item.component.ItemContainerContents;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.SimpleMenuProvider;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -52,6 +54,10 @@ public class ShulkerBoxHandler {
                         },
                         displayName
                 ));
+
+                // Play shulker box open sound
+                world.playSound(null, player.getX(), player.getY(), player.getZ(),
+                        SoundEvents.SHULKER_BOX_OPEN, SoundSource.BLOCKS, 0.5f, 1.0f);
             }
 
             return InteractionResult.SUCCESS;

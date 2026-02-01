@@ -6,6 +6,8 @@ import net.minecraft.world.SimpleContainer;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.ShulkerBoxMenu;
 import net.minecraft.world.inventory.ClickType;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 
 public class ShulkerBoxScreenHandler extends ShulkerBoxMenu {
     private final Player player;
@@ -46,6 +48,10 @@ public class ShulkerBoxScreenHandler extends ShulkerBoxMenu {
         if (!player.level().isClientSide()) {
             ItemStack shulkerStack = player.getInventory().getItem(slot);
             ShulkerBoxHandler.saveToShulkerBox(shulkerStack, shulkerContainer);
+
+            // Play shulker box close sound
+            player.level().playSound(null, player.getX(), player.getY(), player.getZ(),
+                    SoundEvents.SHULKER_BOX_CLOSE, SoundSource.BLOCKS, 0.5f, 1.0f);
         }
     }
 }
