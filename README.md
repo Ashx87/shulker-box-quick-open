@@ -8,6 +8,7 @@ A simple Fabric mod that allows you to quickly open shulker boxes directly from 
 - **Full Functionality**: Uses the vanilla shulker box interface - all original behaviors are preserved
 - **Safe**: Prevents the opened shulker box from being placed inside itself (which would cause item loss)
 - **Works on Servers**: Fully compatible with multiplayer servers
+- **Immersive Sound**: Plays vanilla shulker box open/close sounds
 
 ## 📖 How to Use
 
@@ -29,7 +30,7 @@ This mod **must be installed on the server** for it to work. Client installation
 ## 📋 Requirements
 
 - Minecraft 1.21.10
-- Fabric Loader 0.16.0+
+- Fabric Loader 0.18.4+
 - Fabric API
 
 ## 📜 License
